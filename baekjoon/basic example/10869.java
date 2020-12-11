@@ -17,3 +17,4 @@ public class Baekjoonexample {
 	System.out.println(A%B);
 	}
 }
+
