@@ -27,7 +27,7 @@ int w(int a, int b, int c)
 	else
 		ret = w(a - 1, b, c) + w(a - 1, b - 1, c) + w(a - 1, b, c - 1) - w(a - 1, b - 1, c - 1);
 	return ret;
-}
+} 
 int main() {
 
 	while (1)
